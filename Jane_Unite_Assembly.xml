@@ -1,0 +1,18 @@
+<Unite Version="1.0">
+
+  <Assembly Name="C:\\Program Files\\Thermo Scientific\\Momentum\\Modules\\JaneDll.dll" Type="JaneDll.DataTransmitter" MaximumNumberOfRetries="10" BaseRetryInterval="00:00:01" RetryDelayMultiplier="2.0" MaximumDelayBetweenRetries="00:05:00">
+
+    <Method Name="SendData" DisplayName="Send data to command centre">
+      <Parameters>
+        <Input Id="mmt_data" DisplayName="mmt data" Type="System.Int32"/>
+        <Output Id="is_outlier" DisplayName="is_outlier" Type="System.Int32"/>
+        <Output Id="temperature" DisplayName="temperature setting" Type="System.Int32"/>
+       </Parameters>
+    </Method>
+	
+  </Assembly>
+
+</Unite>
+
+
+

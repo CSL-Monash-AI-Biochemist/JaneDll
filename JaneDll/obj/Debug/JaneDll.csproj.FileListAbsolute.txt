@@ -1,0 +1,13 @@
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\JaneDll.dll
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\JaneDll.pdb
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\IronPython.dll
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\IronPython.Modules.dll
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\Microsoft.Scripting.dll
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\System.Memory.dll
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\Microsoft.Dynamic.dll
+C:\code\CSL\JaneDll\JaneDll\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\code\CSL\JaneDll\JaneDll\obj\Debug\JaneDll.csproj.CoreCompileInputs.cache
+C:\code\CSL\JaneDll\JaneDll\obj\Debug\JaneDll.csproj.CopyComplete
+C:\code\CSL\JaneDll\JaneDll\obj\Debug\JaneDll.dll
+C:\code\CSL\JaneDll\JaneDll\obj\Debug\JaneDll.pdb
+C:\code\CSL\JaneDll\JaneDll\obj\Debug\JaneDll.csproj.AssemblyReference.cache
