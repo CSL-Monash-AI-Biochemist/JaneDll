@@ -1,0 +1,13 @@
+<Unite Version="1.0">
+
+  <Rest Route="/experiment/state">
+
+    <HttpGet Name="GetState" DisplayName="Get experiment state" Timeout="6000">
+      <Parameters>
+				<Output Id="ExperimentState" DisplayName="Experiment state"/>
+      </Parameters>
+    </HttpGet>
+
+  </Rest>
+
+</Unite>
