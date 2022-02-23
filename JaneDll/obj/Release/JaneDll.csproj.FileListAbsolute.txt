@@ -11,3 +11,16 @@ C:\code\CSL\JaneDll\JaneDll\obj\Release\JaneDll.csproj.CoreCompileInputs.cache
 C:\code\CSL\JaneDll\JaneDll\obj\Release\JaneDll.csproj.CopyComplete
 C:\code\CSL\JaneDll\JaneDll\obj\Release\JaneDll.dll
 C:\code\CSL\JaneDll\JaneDll\obj\Release\JaneDll.pdb
+C:\code\JaneDll\JaneDll\bin\Release\JaneDll.dll
+C:\code\JaneDll\JaneDll\bin\Release\JaneDll.pdb
+C:\code\JaneDll\JaneDll\bin\Release\IronPython.dll
+C:\code\JaneDll\JaneDll\bin\Release\IronPython.Modules.dll
+C:\code\JaneDll\JaneDll\bin\Release\Microsoft.Scripting.dll
+C:\code\JaneDll\JaneDll\bin\Release\System.Memory.dll
+C:\code\JaneDll\JaneDll\bin\Release\Microsoft.Dynamic.dll
+C:\code\JaneDll\JaneDll\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\code\JaneDll\JaneDll\obj\Release\JaneDll.csproj.CoreCompileInputs.cache
+C:\code\JaneDll\JaneDll\obj\Release\JaneDll.csproj.CopyComplete
+C:\code\JaneDll\JaneDll\obj\Release\JaneDll.dll
+C:\code\JaneDll\JaneDll\obj\Release\JaneDll.pdb
+C:\code\JaneDll\JaneDll\obj\Release\JaneDll.csproj.AssemblyReference.cache

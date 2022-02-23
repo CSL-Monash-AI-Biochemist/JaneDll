@@ -16,7 +16,7 @@ namespace JaneDll
 
         public DataTransmitter(){}
 
-        public string updateState(string mmt_state)
+        public string sendMomentumState(string mmt_state)
         {
             // Initialising python engine -----------------------------------------------
             var engine = Python.CreateEngine();
@@ -37,7 +37,26 @@ namespace JaneDll
             return "ok";
         }
 
+        public string getJaneRobotState(out string JaneRobotState)
+        {
+            // Initialising python engine -----------------------------------------------
+            var engine = Python.CreateEngine();
 
+            // reading python code from file
+            //var python_source = engine.CreateScriptSourceFromFile("C:\\code\\Momentum_data_exchange_server\\data_exchange_server.py");
+            var python_source = engine.CreateScriptSourceFromFile(pyScriptPath);
+
+            var python_scope = engine.CreateScope();
+            python_source.Execute(python_scope);
+
+            var classDataExchangeClient = python_scope.GetVariable("DataExchangeClient");
+            var dataExchange = engine.Operations.CreateInstance(classDataExchangeClient);
+            // --------------------------------------------------------------------------
+
+            JaneRobotState = dataExchange.get_jane_robot_state();
+
+            return "ok";
+        }
 
     }
 }

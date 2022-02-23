@@ -2,12 +2,18 @@
 
   <Assembly Name="C:\\Program Files\\Thermo Scientific\\Momentum\\Modules\\JaneDll.dll" Type="JaneDll.DataTransmitter" MaximumNumberOfRetries="10" BaseRetryInterval="00:00:01" RetryDelayMultiplier="2.0" MaximumDelayBetweenRetries="00:05:00">
 
-    <Method Name="updateState" DisplayName="Send Momentum state to command centre">
+    <Method Name="sendMomentumState" DisplayName="Send Momentum state to command centre">
       <Parameters>
         <Input Id="mmt_state" DisplayName="mmt state" Type="System.String"/>
        </Parameters>
     </Method>
 	
+    <Method Name="getJaneRobotState" DisplayName="Get Jane robot state from command centre">
+      <Parameters>
+        <Output Id="jane_state" DisplayName="jane state" Type="System.String"/>
+       </Parameters>
+    </Method>
+
   </Assembly>
 
 </Unite>
